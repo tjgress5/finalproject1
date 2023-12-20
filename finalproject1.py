@@ -20,8 +20,8 @@ from PIL import Image
 
 st.title("Cannabis Registry Information")
 st.header("Please use this information to help you find a dispensary that will suit your needs!")
-st_image = Image.open("C:/Users/tjgre/PycharmProjects/finalproject/Cannabis_leaf.svg.png")
-st.image(st_image, width = 250, caption= "Cannabis Symbol")
+#st_image = Image.open("C:/Users/tjgre/PycharmProjects/finalproject/Cannabis_leaf.svg.png")
+#st.image(st_image, width = 250, caption= "Cannabis Symbol")
 
 tab1, tab2, tab3 = st.tabs(['Businesses by License Type', 'Businesses by Business Type', 'Businesses by Zip Code'])
 df_za = pd.read_csv('Cannabis_Registry.csv', index_col='id_full_name')
